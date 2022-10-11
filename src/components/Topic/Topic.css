@@ -1,0 +1,15 @@
+.topic {
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    /* height: 350px;
+    width: 350px; */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 100px;
+}
+
+.topic img {
+    height: 300px;
+    width: 200px;
+
+}
