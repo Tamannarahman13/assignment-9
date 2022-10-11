@@ -1,0 +1,34 @@
+.options{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin :10px 0;
+   
+}
+
+.element{
+    text-align: left;
+    border: 2px solid #ddd;
+    padding:30px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:all ease-in-out .3s;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+label{
+cursor: pointer;
+}
+
+.element:hover{
+    background: lightskyblue;
+    color: #fff;
+    font-weight: 500;
+}
+
+@media (max-width:600px) {
+    .options{
+        grid-template-columns: auto;
+    }
+}
